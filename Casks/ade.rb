@@ -17,6 +17,11 @@ cask "ade" do
 
   app "Better Terminal.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Better Terminal.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.betterterminal.dev.plist",
     "~/Library/Saved Application State/com.betterterminal.dev.savedState",
