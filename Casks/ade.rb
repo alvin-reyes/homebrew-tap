@@ -1,14 +1,14 @@
 cask "ade" do
-  version "0.3.0"
+  version "0.9.0"
 
   on_arm do
     url "https://github.com/alvin-reyes/better-agentic-ide/releases/download/v#{version}/Better.Terminal_#{version}_aarch64.dmg"
-    sha256 "145492fffbffa1736fc91e5182fd620ba394df4a2211cb8e8e853830d2e2fef9"
+    sha256 "e6db6400929263635c894c4a6478cd7743fb6e519da3e50bbd3fdee2789667a0"
   end
 
   on_intel do
     url "https://github.com/alvin-reyes/better-agentic-ide/releases/download/v#{version}/Better.Terminal_#{version}_x64.dmg"
-    sha256 "d86e0c52e9bb5b43c32711a6a035ac8bbdc1775fa6c6abde54ce2af909ed523c"
+    sha256 "1441ef62339a6ae10620beb757d80af862332bc1f4f623b6bbfc549adca3afb9"
   end
 
   name "ADE"
