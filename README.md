@@ -1,6 +1,6 @@
 # Homebrew Tap for ADE
 
-Homebrew tap for [ADE (Agentic Development Environment)](https://github.com/alvin-reyes/better-agentic-ide).
+Homebrew tap for [ADE (Agentic Development Environment)](https://github.com/better-ade/ade-terminal).
 
 ## Install
 
